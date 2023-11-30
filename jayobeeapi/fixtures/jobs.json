@@ -1,0 +1,62 @@
+[
+  {
+    "model": "jayobeeapi.job",
+    "pk": 1,
+    "fields": {
+      "user_id": "user123",
+      "company": "TechCo",
+      "title": "Software Engineer",
+      "status": "Applying",
+      "description": "Exciting software engineering position",
+      "date_created": "2023-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "jayobeeapi.job",
+    "pk": 2,
+    "fields": {
+      "user_id": "user123",
+      "company": "DataCorp",
+      "title": "Data Analyst",
+      "status": "Interviews",
+      "description": "Data analysis role with DataCorp",
+      "date_created": "2023-02-01T14:30:00Z"
+    }
+  },
+  {
+    "model": "jayobeeapi.job",
+    "pk": 3,
+    "fields": {
+      "user_id": "user456",
+      "company": "DesignHub",
+      "title": "Graphic Designer",
+      "status": "Offers",
+      "description": "Creative graphic design position",
+      "date_created": "2023-03-01T10:45:00Z"
+    }
+  },
+  {
+    "model": "jayobeeapi.job",
+    "pk": 4,
+    "fields": {
+      "user_id": "user456",
+      "company": "MarketingMasters",
+      "title": "Marketing Specialist",
+      "status": "Applying",
+      "description": "Exciting marketing role",
+      "date_created": "2023-04-01T09:15:00Z"
+    }
+  },
+  {
+    "model": "jayobeeapi.job",
+    "pk": 5,
+    "fields": {
+      "user_id": "user123",
+      "company": "TechInnovate",
+      "title": "Product Manager",
+      "status": "Rejected",
+      "description": "Product management position",
+      "date_created": "2023-05-01T11:30:00Z"
+    }
+  }
+]
