@@ -1,0 +1,18 @@
+[
+  {
+    "model": "jayobeeapi.seeker",
+    "pk": 1,
+    "fields": {
+      "uid": "user123",
+      "username": "JohnDoe"
+    }
+  },
+  {
+    "model": "jayobeeapi.seeker",
+    "pk": 2,
+    "fields": {
+      "uid": "user456",
+      "username": "JaneSmith"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "model": "jayobeeapi.contact",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "job": 1,
+      "name": "Hiring Manager",
+      "email": "hiringmanager@techco.com",
+      "phone": "123-456-7890",
+      "company": "TechCo"
+    }
+  },
+  {
+    "model": "jayobeeapi.contact",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "job": 3,
+      "name": "HR Coordinator",
+      "email": "hr@designhub.com",
+      "phone": "987-654-3210",
+      "company": "DesignHub"
+    }
+  }
+]
