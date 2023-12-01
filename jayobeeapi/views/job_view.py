@@ -2,7 +2,8 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from jayobeeapi.models import Job
+from datetime import date
+from jayobeeapi.models import Job, Seeker
 
 
 class JobView(ViewSet):
@@ -36,6 +37,27 @@ class JobView(ViewSet):
 
         serializer = JobSerializer(
             jobs, many=True, context={'request': request})
+        return Response(serializer.data)
+
+    def create(self, request):
+        """Handle POST operations
+
+        Returns:
+            Response -- JSON serialized Job instance
+        """
+        uid = request.META['HTTP_AUTHORIZATION']
+        user = Seeker.objects.get(uid=uid)
+        job = Job.objects.create(
+            user=user,
+            company=request.data["company"],
+            title=request.data["title"],
+            status=request.data["status"],
+            description=request.data["description"],
+            date_created=date.today()
+        )
+
+        serializer = JobSerializer(job, context={'request': request})
+
         return Response(serializer.data)
 
 
