@@ -1,6 +1,11 @@
 {
   "python.linting.pylintArgs": [
     "--load-plugins=pylint_django",
-    "--django-settings-module=jayobee-server.settings"
-  ]
+    "--django-settings-module=gsd.settings"
+  ],
+  "python.linting.enabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
