@@ -47,6 +47,11 @@ class JobSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Job
-        fields = ('user', 'company', 'title', 'status',
-                  'description', 'date_created')
-        # depth = 1
+        fields = (
+            'user',
+            'company',
+            'title',
+            'status',
+            'description',
+            'date_created'
+        )
