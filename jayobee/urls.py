@@ -17,9 +17,12 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from jayobeeapi.views.auth import register_user, check_user
+# pylint: disable=E0611
+from jayobeeapi.views import register_user, check_user
+from jayobeeapi.views import JobView
 
 router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'jobs', JobView, 'job')
 
 urlpatterns = [
     path('register', register_user),
