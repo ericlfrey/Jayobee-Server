@@ -1,9 +1,9 @@
 [
   {
     "model": "jayobeeapi.note",
-    "pk": "note1",
+    "pk": 1,
     "fields": {
-      "job_id": 2,
+      "job": 2,
       "date_created": "2023-02-10T14:45:00Z",
       "noteBody": "Prepared for the interview and discussed past experiences."
     }

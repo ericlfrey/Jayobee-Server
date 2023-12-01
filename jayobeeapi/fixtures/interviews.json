@@ -1,9 +1,9 @@
 [
   {
     "model": "jayobeeapi.interview",
-    "pk": "interview1",
+    "pk": 1,
     "fields": {
-      "job_id": 1,
+      "job": 1,
       "date_created": "2023-01-15T08:00:00Z",
       "schedule": "2023-02-01T15:30:00Z"
     }

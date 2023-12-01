@@ -3,7 +3,7 @@
     "model": "jayobeeapi.job",
     "pk": 1,
     "fields": {
-      "user_id": "user123",
+      "user": 1,
       "company": "TechCo",
       "title": "Software Engineer",
       "status": "Applying",
@@ -15,7 +15,7 @@
     "model": "jayobeeapi.job",
     "pk": 2,
     "fields": {
-      "user_id": "user123",
+      "user": 1,
       "company": "DataCorp",
       "title": "Data Analyst",
       "status": "Interviews",
@@ -27,7 +27,7 @@
     "model": "jayobeeapi.job",
     "pk": 3,
     "fields": {
-      "user_id": "user456",
+      "user": 2,
       "company": "DesignHub",
       "title": "Graphic Designer",
       "status": "Offers",
@@ -39,7 +39,7 @@
     "model": "jayobeeapi.job",
     "pk": 4,
     "fields": {
-      "user_id": "user456",
+      "user": 2,
       "company": "MarketingMasters",
       "title": "Marketing Specialist",
       "status": "Applying",
@@ -51,7 +51,7 @@
     "model": "jayobeeapi.job",
     "pk": 5,
     "fields": {
-      "user_id": "user123",
+      "user": 1,
       "company": "TechInnovate",
       "title": "Product Manager",
       "status": "Rejected",

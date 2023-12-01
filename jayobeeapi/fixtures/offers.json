@@ -1,9 +1,9 @@
 [
   {
     "model": "jayobeeapi.offer",
-    "pk": "offer1",
+    "pk": 1,
     "fields": {
-      "job_id": 3,
+      "job": 3,
       "startDate": "2023-03-15T09:00:00Z",
       "endDate": "2023-04-15T17:00:00Z",
       "amount": 75000.0,
